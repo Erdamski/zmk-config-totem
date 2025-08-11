@@ -48,12 +48,17 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <16 17 18 25>;
+            key-positions = <16 17 18>;
         };
 
         Spotlight {
             bindings = <&kp LG(SPACE)>;
             key-positions = <22 23 24>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 10>;
         };
     };
 
