@@ -44,6 +44,16 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17 18 25>;
+        };
+
+        Spotlight {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <22 23 24>;
+        };
     };
 
     macros {
