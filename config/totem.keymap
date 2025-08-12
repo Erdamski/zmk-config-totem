@@ -61,7 +61,7 @@
 
         shot {
             bindings = <&kp LS(LG(NUMBER_4))>;
-            key-positions = <16 28>;
+            key-positions = <12 22>;
         };
 
         zwischenablage {
