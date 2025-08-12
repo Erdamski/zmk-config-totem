@@ -34,12 +34,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp DELETE>;
-        };
-
         combo_tvp {
             timeout-ms = <100>;
             key-positions = <11 12 13>;
@@ -59,11 +53,6 @@
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <11 10>;
-        };
-
-        delete {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
         };
     };
 
@@ -106,10 +95,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp DE_Q              &kp DE_W        &kp DE_E          &kp DE_R     &kp DE_T     &kp DE_Z        &kp DE_U     &kp DE_I                   &mt DE_O_UMLAUT DE_O  &kp DE_P
-         &mt DE_A_UMLAUT DE_A  &mt DE_SZ DE_S  &kp DE_D          &kp DE_F     &kp DE_G     &kp DE_H        &kp J        &kp DE_K                   &kp DE_L              &kp DE_AT
-&kp DEL  &kp DE_Y              &kp DE_X        &kp DE_C          &kp DE_V     &kp DE_B     &kp DE_N        &kp M        &mt DE_SEMICOLON DE_COMMA  &mt DE_COLON DE_DOT   &kp FSLH   &kp BACKSPACE
-                                               &kp LEFT_COMMAND  &lt NAV TAB  &kp SPACE    &kp LEFT_SHIFT  &lt SYM ESC  &kp RIGHT_ALT
+         &kp DE_Q              &kp DE_W        &kp DE_E          &kp DE_R     &kp DE_T     &kp DE_Z        &kp DE_U           &kp DE_I                   &mt DE_O_UMLAUT DE_O  &kp DE_P
+         &mt DE_A_UMLAUT DE_A  &mt DE_SZ DE_S  &kp DE_D          &kp DE_F     &kp DE_G     &kp DE_H        &kp J              &kp DE_K                   &kp DE_L              &kp DE_AT
+&kp DEL  &kp DE_Y              &kp DE_X        &kp DE_C          &kp DE_V     &kp DE_B     &kp DE_N        &kp M              &mt DE_SEMICOLON DE_COMMA  &mt DE_COLON DE_DOT   &kp FSLH   &kp BACKSPACE
+                                               &kp LEFT_COMMAND  &lt NAV TAB  &kp SPACE    &kp LEFT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT
             >;
         };
 
