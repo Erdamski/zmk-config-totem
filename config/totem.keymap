@@ -59,6 +59,21 @@
             bindings = <&kp TAB>;
             key-positions = <12 11>;
         };
+
+        downloads {
+            bindings = <&kp LA(LS(DE_D))>;
+            key-positions = <33 12>;
+        };
+
+        screenshot {
+            bindings = <&kp LS(LA(DE_S))>;
+            key-positions = <33 11>;
+        };
+
+        shot {
+            bindings = <&kp LS(LG(NUMBER_4))>;
+            key-positions = <33 16>;
+        };
     };
 
     macros {
