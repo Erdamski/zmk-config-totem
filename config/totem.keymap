@@ -47,32 +47,32 @@
 
         Spotlight {
             bindings = <&kp LG(SPACE)>;
-            key-positions = <22 23 24>;
+            key-positions = <11 12 13>;
         };
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 2>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <12 11>;
+            key-positions = <11 12>;
         };
 
         downloads {
             bindings = <&kp LA(LS(DE_D))>;
-            key-positions = <12 34>;
+            key-positions = <12 24>;
         };
 
         screenshot {
             bindings = <&kp LS(LA(DE_S))>;
-            key-positions = <11 34>;
+            key-positions = <23 13>;
         };
 
         shot {
             bindings = <&kp LS(LG(NUMBER_4))>;
-            key-positions = <16 34>;
+            key-positions = <16 28>;
+        };
+
+        zwischenablage {
+            bindings = <&kp LS(LG(DE_V))>;
+            key-positions = <27 17>;
         };
     };
 
