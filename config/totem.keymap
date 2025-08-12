@@ -34,12 +34,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 2>;
-        };
-
         Enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17>;
